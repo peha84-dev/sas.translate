@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-01-11 14:49\n"
-"PO-Revision-Date: 2022-01-11 14:51+0300\n"
+"POT-Creation-Date: 2022-05-07 10:35\n"
+"PO-Revision-Date: 2022-05-07 10:36+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -147,20 +147,6 @@ msgstr "/пикс."
 #. Programmer's name for it: rsClip
 msgid "[clip]"
 msgstr ""
-
-#, object-pascal-format
-msgid ""
-"[JNX] Tile processing error!\n"
-"Tile: X = %d, Y = %d, Z = %d\n"
-"Error: \"%s: %s\"\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"[JNX] Ошибка обработки тайла!\n"
-"Тайл: X = %d, Y = %d, Z = %d\n"
-"Ошибка: \"%s: %s\"\n"
-"\n"
-"Вы хотите продолжить?"
 
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
@@ -761,6 +747,11 @@ msgstr "Площадь: %s"
 msgid "Arrow color:"
 msgstr "Цвет стрелки:"
 
+#. Programmer's name for it: rsElevationProfileElevAscentFmt
+#, object-pascal-format
+msgid "Ascent: %d m"
+msgstr "Подъём: %d м"
+
 #. Programmer's name for it: rsAstroEnd
 msgid "Astro. twilight end"
 msgstr "Конец Астр. сумерек"
@@ -845,6 +836,11 @@ msgstr "Скорость средняя"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Скорость сред., км/ч:"
+
+#. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
+#, object-pascal-format
+msgid "Avg Slope: %.1f%%, %.1f%%"
+msgstr "Средн. Уклон: %.1f%%, %.1f%%"
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -1039,6 +1035,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkPictureEditor..btnCancel..Caption
@@ -1140,6 +1137,10 @@ msgstr "Категория:"
 #, object-pascal-format
 msgid "Category: %s"
 msgstr "Категория: %s"
+
+#. frElevationProfile..pmMain..mniCenterMap..Caption
+msgid "Center Map"
+msgstr "Центрировать карту"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With &Zoom"
@@ -1634,6 +1635,11 @@ msgstr "Удаление"
 msgid "Deleting:"
 msgstr "Удаляет:"
 
+#. Programmer's name for it: rsElevationProfileElevDescentFmt
+#, object-pascal-format
+msgid "Descent: %d m"
+msgstr "Спуск: %d м"
+
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
@@ -1750,6 +1756,19 @@ msgstr "Расстояние, м"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
 msgid "Distance:"
 msgstr "Пройденный путь:"
+
+#. Programmer's name for it: rsElevationProfileDistFmt
+#, object-pascal-format
+msgid "Distance: %.2f %s"
+msgstr "Расстояние: %.2f %s"
+
+#, no-object-pascal-format
+msgid "Distance: %.2f km"
+msgstr "Расстояние: %.2f км"
+
+#, no-object-pascal-format
+msgid "Distance: %.2f m"
+msgstr "Расстояние: %.2f м"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
@@ -1945,6 +1964,19 @@ msgstr "Времени прошло: %s"
 #. frmMapLayersOptions..pgcOptions..tsElevation..Caption
 msgid "Elevation Info"
 msgstr "Информация о высоте"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
+msgid "Elevation Profile"
+msgstr "Профиль рельефа"
+
+#, no-object-pascal-format
+msgid "Elevation: %.2f m"
+msgstr "Высота: %.2f м"
+
+#. Programmer's name for it: rsElevationProfileElevFmt
+#, object-pascal-format
+msgid "Elevation: %d, %d, %d m"
+msgstr "Высота: %d, %d, %d м"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -2201,6 +2233,10 @@ msgstr "Дата создания"
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
 msgstr "Фильтр"
+
+#. frElevationProfile..pmMain..mniFilterData..Caption
+msgid "Filter Data"
+msgstr "Фильтровать данные"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -2651,6 +2687,10 @@ msgstr "Движение по инерции"
 msgid "Info"
 msgstr "Информация"
 
+#. Programmer's name for it: rsInitializing
+msgid "Initializing..."
+msgstr "Инициализация..."
+
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Входные переменные"
@@ -2712,10 +2752,6 @@ msgstr "iPhone (Ниже v2.2 64х64)"
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "Можно использовать \\ в качестве разделителя пути"
 
-#. frExportToJNX..dlgSaveTargetFile..Filter
-msgid "JNX |*.jnx"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_ExportJNXPackCaption
 msgid "JNX raster map for Garmin"
 msgstr "JNX растровая карта для Garmin"
@@ -2735,6 +2771,10 @@ msgstr "Качество JPEG:"
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "кБ"
+
+#. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
+msgid "Keep Aspect Ratio"
+msgstr "Сохранять соотношение сторон"
 
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
 msgid "Keep temporarily files"
@@ -2899,10 +2939,6 @@ msgstr "Закрепить панели инструментов"
 #. frmMain..actlstMain..actViewToolbarsLock..Caption
 msgid "Lock Toolbars"
 msgstr "Закрепить панели инструментов"
-
-#. Programmer's name for it: SAS_STR_ExportLocusSQLiteExportCaption
-msgid "Locus (SQLite3)"
-msgstr ""
 
 #. Programmer's name for it: SAS_ERR_LonLat1
 msgid ""
@@ -3138,6 +3174,11 @@ msgstr "Макс. число параллельных http(s)-запросов:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
 msgstr "Макс. число одновременных соединений на сервер"
+
+#. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
+#, object-pascal-format
+msgid "Max Slope: %.1f%%, %.1f%%"
+msgstr "Макс. Уклон: %.1f%%, %.1f%%"
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
@@ -3492,10 +3533,6 @@ msgstr "Фомат тайлов в OGF2:"
 msgid "OGF2 tiles resolution:"
 msgstr "Разрешение тайлов в OGF2:"
 
-#. frmPolygonForOperationConfig..pnlBottom..btnOk..Caption
-msgid "OK"
-msgstr ""
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
@@ -3619,10 +3656,6 @@ msgstr "Настройки..."
 #. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
 msgid "Order by:"
 msgstr "Упорядочить по:"
-
-#. Programmer's name for it: SAS_STR_ExportOsmAndSQLiteExportCaption
-msgid "OsmAnd (SQLite3)"
-msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
@@ -3887,11 +3920,16 @@ msgstr "Пожалуйста, укажите целевую папку"
 msgid "Please select the map first!"
 msgstr "Сначала необходимо выбрать карту!"
 
+#. Programmer's name for it: rsWaitUntilTheFinishOperation
+msgid "Please wait until the finish of the previous operation!"
+msgstr "Пожалуйста, дождитесь окончания предыдущей операции!"
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Подождите, идет загрузка..."
 
 #. frmProgressCacheConverter..Caption
+#. frmElevationMetaWriterProgress..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
@@ -4037,6 +4075,11 @@ msgstr "Всего обработано:"
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
 msgstr "Обработано:"
+
+#. Programmer's name for it: rsProcessedFmt
+#, object-pascal-format
+msgid "Processed: %.2f%%"
+msgstr "Обработано: %.2f%%"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
 #, no-object-pascal-format
@@ -4251,6 +4294,10 @@ msgstr "Сбросить настройки коррекции изображе�
 msgid "Reset SAS Zooms"
 msgstr "Сбросить масштабы SAS"
 
+#. frElevationProfile..pmMain..mniResetZoom..Caption
+msgid "Reset Zoom"
+msgstr "Сбросить масштабирование"
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
 msgstr "Алгоритм:"
@@ -4439,6 +4486,10 @@ msgstr "Сохранить zmp"
 #, object-pascal-format
 msgid "Saving tiles. %s %d %s"
 msgstr "Сохранение тайлов. %s %d %s"
+
+#. frElevationProfile..pmMain..mniScaleElevToDist..Caption
+msgid "Scale Elevation to Distance as 1:1"
+msgstr "Масштабировать Высоту к Расстоянию как 1:1"
 
 #. frmMain..actlstMain..actConfigScaleLineVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
@@ -4667,6 +4718,10 @@ msgstr "Показывать текущую Высоту и Азимут"
 msgid "Show Download Info"
 msgstr "Отображать статистику о загрузке"
 
+#. frElevationProfile..pmMain..mniShowElevation..Caption
+msgid "Show Elevation"
+msgstr "Отображать высоту"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarElevation..Caption
 #. Programmer's name for it: rsShowElevationInfo
 msgid "Show Elevation Info"
@@ -4679,6 +4734,11 @@ msgstr "Отображать информацию из всех доступны
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevShowInStatusBar..Caption
 msgid "Show Elevation Info In Status Bar"
 msgstr "Отображать информацию о высоте в строке статуса"
+
+#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
+msgid "Show Elevation Profile"
+msgstr "Показать профиль рельефа"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Show for All"
@@ -4765,6 +4825,10 @@ msgstr "Просмотр тайла основной карты"
 #. Programmer's name for it: rsShowQueueInfo
 msgid "Show Queue Info"
 msgstr "Отображать очередь закачки"
+
+#. frElevationProfile..pmMain..mniShowSpeed..Caption
+msgid "Show Speed"
+msgstr "Отображать скорость"
 
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
@@ -4910,6 +4974,10 @@ msgstr "Пропущено:"
 msgid "Sleep on reset connection, ms"
 msgstr "Пауза, при обрыве связи, мс"
 
+#, object-pascal-format
+msgid "Slope: %.1f%%"
+msgstr "Уклон: %.1f%%"
+
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
 msgstr ""
@@ -4965,6 +5033,15 @@ msgstr "Исходники:"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedMenuItemName
 msgid "Speed"
 msgstr "Скорость"
+
+#, no-object-pascal-format
+msgid "Speed: %.2f km/h"
+msgstr "Скорость: %.2f км/ч"
+
+#. Programmer's name for it: rsElevationProfileSpeedFmt
+#, no-object-pascal-format
+msgid "Speed: %.2f, %.2f, %.2f km/h"
+msgstr "Скорость: %.2f, %.2f, %.2f км/ч"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5263,6 +5340,20 @@ msgstr ""
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Путь к кэшу Tile Map Service (TMS):"
 
+#, object-pascal-format
+msgid ""
+"Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Ошибка обработки тайла!\n"
+"Тайл: X = %d, Y = %d, Z = %d\n"
+"Ошибка: \"%s: %s\"\n"
+"\n"
+"Вы хотите продолжить?"
+
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"
 msgstr "Размер тайла"
@@ -5292,6 +5383,11 @@ msgstr "Осталось времени:"
 #. Programmer's name for it: SAS_STR_Marshtime
 msgid "Time to reach:"
 msgstr "Время в пути: "
+
+#. Programmer's name for it: rsElevationProfileTimeFmt
+#, object-pascal-format
+msgid "Time: %s"
+msgstr "Время: %s"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
@@ -5696,6 +5792,10 @@ msgstr "Уменьшить"
 #. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "Масштабировать от курсора"
+
+#. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
+msgid "Zoom with Mouse Wheel"
+msgstr "Увеличивать колёсиком мыши"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption

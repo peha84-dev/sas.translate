@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-01-11 14:49\n"
+"POT-Creation-Date: 2022-05-07 10:35\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -153,15 +153,6 @@ msgstr "/pixel"
 #. Programmer's name for it: rsClip
 msgid "[clip]"
 msgstr "[attache]"
-
-#, object-pascal-format
-msgid ""
-"[JNX] Tile processing error!\n"
-"Tile: X = %d, Y = %d, Z = %d\n"
-"Error: \"%s: %s\"\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
 
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
@@ -768,6 +759,11 @@ msgstr "Surface : %s"
 msgid "Arrow color:"
 msgstr "Couleur de flèche :"
 
+#. Programmer's name for it: rsElevationProfileElevAscentFmt
+#, object-pascal-format
+msgid "Ascent: %d m"
+msgstr ""
+
 #. Programmer's name for it: rsAstroEnd
 msgid "Astro. twilight end"
 msgstr "Crépuscule astronomique"
@@ -856,6 +852,11 @@ msgstr "Vitesse moyenne"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Vitesse moyenne, km/h :"
+
+#. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
+#, object-pascal-format
+msgid "Avg Slope: %.1f%%, %.1f%%"
+msgstr ""
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -1051,6 +1052,7 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkPictureEditor..btnCancel..Caption
@@ -1154,6 +1156,10 @@ msgstr "Catégorie :"
 #, object-pascal-format
 msgid "Category: %s"
 msgstr "Catégorie : %s"
+
+#. frElevationProfile..pmMain..mniCenterMap..Caption
+msgid "Center Map"
+msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With &Zoom"
@@ -1655,6 +1661,11 @@ msgstr "En train de supprimer"
 msgid "Deleting:"
 msgstr "En train de supprimer :"
 
+#. Programmer's name for it: rsElevationProfileElevDescentFmt
+#, object-pascal-format
+msgid "Descent: %d m"
+msgstr ""
+
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
@@ -1771,6 +1782,19 @@ msgstr "Distance, m"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
 msgid "Distance:"
 msgstr "Distance :"
+
+#. Programmer's name for it: rsElevationProfileDistFmt
+#, fuzzy, object-pascal-format
+msgid "Distance: %.2f %s"
+msgstr "Distance :"
+
+#, fuzzy, no-object-pascal-format
+msgid "Distance: %.2f km"
+msgstr "Distance #2, km :"
+
+#, fuzzy, no-object-pascal-format
+msgid "Distance: %.2f m"
+msgstr "Distance #2, km :"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
@@ -1974,6 +1998,20 @@ msgstr "Temps passé : %s"
 #. frmMapLayersOptions..pgcOptions..tsElevation..Caption
 msgid "Elevation Info"
 msgstr "Altitude"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
+#, fuzzy
+msgid "Elevation Profile"
+msgstr "Altitude"
+
+#, fuzzy, no-object-pascal-format
+msgid "Elevation: %.2f m"
+msgstr "Altitude"
+
+#. Programmer's name for it: rsElevationProfileElevFmt
+#, object-pascal-format
+msgid "Elevation: %d, %d, %d m"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -2239,6 +2277,11 @@ msgstr "Remplir les dates"
 
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
+msgstr "Filtrer"
+
+#. frElevationProfile..pmMain..mniFilterData..Caption
+#, fuzzy
+msgid "Filter Data"
 msgstr "Filtrer"
 
 #, object-pascal-format
@@ -2690,6 +2733,10 @@ msgstr "Mouvement inertiel"
 msgid "Info"
 msgstr "Information"
 
+#. Programmer's name for it: rsInitializing
+msgid "Initializing..."
+msgstr ""
+
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Variables d'entrée"
@@ -2751,10 +2798,6 @@ msgstr "iPhone (version jusqu'à 2.2, 64x64)"
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "L'usage est autorisé\\ comme un délimiteur de chemin"
 
-#. frExportToJNX..dlgSaveTargetFile..Filter
-msgid "JNX |*.jnx"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_ExportJNXPackCaption
 msgid "JNX raster map for Garmin"
 msgstr "JNX, carte raster pour Garmin"
@@ -2774,6 +2817,10 @@ msgstr "Qualité JPEG :"
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "Kb"
+
+#. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
+msgid "Keep Aspect Ratio"
+msgstr ""
 
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
 msgid "Keep temporarily files"
@@ -2938,10 +2985,6 @@ msgstr "Verrouiller les barres d'outils"
 #. frmMain..actlstMain..actViewToolbarsLock..Caption
 msgid "Lock Toolbars"
 msgstr "Verrouiller les barres d'outils"
-
-#. Programmer's name for it: SAS_STR_ExportLocusSQLiteExportCaption
-msgid "Locus (SQLite3)"
-msgstr "Locus (SQLite3)"
 
 #. Programmer's name for it: SAS_ERR_LonLat1
 msgid ""
@@ -3182,6 +3225,11 @@ msgstr "Nombre maximum de requêtes HTTP concurrentes :"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
 msgstr "Nombre maximum de connexions simultanées par serveur"
+
+#. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
+#, object-pascal-format
+msgid "Max Slope: %.1f%%, %.1f%%"
+msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
@@ -3536,10 +3584,6 @@ msgstr "OGF2, format de dalles :"
 msgid "OGF2 tiles resolution:"
 msgstr "OGF2, résolution de dalles :"
 
-#. frmPolygonForOperationConfig..pnlBottom..btnOk..Caption
-msgid "OK"
-msgstr "OK"
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
@@ -3663,10 +3707,6 @@ msgstr "Options de l'affichage de l'interface"
 #. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
 msgid "Order by:"
 msgstr "Classer par :"
-
-#. Programmer's name for it: SAS_STR_ExportOsmAndSQLiteExportCaption
-msgid "OsmAnd (SQLite3)"
-msgstr "OsmAnd (SQLite3)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
@@ -3932,11 +3972,16 @@ msgstr "Sélectionner le répertoire de sortie d'abord !"
 msgid "Please select the map first!"
 msgstr "Sélectionner la carte d'abord !"
 
+#. Programmer's name for it: rsWaitUntilTheFinishOperation
+msgid "Please wait until the finish of the previous operation!"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Attendre, téléchargement en cours..."
 
 #. frmProgressCacheConverter..Caption
+#. frmElevationMetaWriterProgress..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
@@ -4083,6 +4128,11 @@ msgstr "Dalles déjà enregistrées :"
 
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
+msgstr "Procédé :"
+
+#. Programmer's name for it: rsProcessedFmt
+#, fuzzy, object-pascal-format
+msgid "Processed: %.2f%%"
 msgstr "Procédé :"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
@@ -4299,6 +4349,11 @@ msgstr "Utiliser les paramètres de post-traitement"
 msgid "Reset SAS Zooms"
 msgstr "Redémarrer les zooms de SAS"
 
+#. frElevationProfile..pmMain..mniResetZoom..Caption
+#, fuzzy
+msgid "Reset Zoom"
+msgstr "Redémarrer les zooms de SAS"
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
 msgstr "Redimensionner l'algorithme :"
@@ -4486,6 +4541,10 @@ msgstr "Sauvegarder le zmp"
 #, object-pascal-format
 msgid "Saving tiles. %s %d %s"
 msgstr "Sauvegarde des tuiles. %s %d %s"
+
+#. frElevationProfile..pmMain..mniScaleElevToDist..Caption
+msgid "Scale Elevation to Distance as 1:1"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigScaleLineVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
@@ -4716,6 +4775,11 @@ msgstr "Afficher l'altitude courante et l'azimut"
 msgid "Show Download Info"
 msgstr "Afficher ce qui a été téléchargé"
 
+#. frElevationProfile..pmMain..mniShowElevation..Caption
+#, fuzzy
+msgid "Show Elevation"
+msgstr "Afficher l'altitude"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarElevation..Caption
 #. Programmer's name for it: rsShowElevationInfo
 msgid "Show Elevation Info"
@@ -4728,6 +4792,12 @@ msgstr "Afficher l'altitude depuis n'importe quelle source disponible"
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevShowInStatusBar..Caption
 msgid "Show Elevation Info In Status Bar"
 msgstr "Afficher l'altitude dans la barre d'état"
+
+#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile"
+msgstr "Afficher l'altitude"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Show for All"
@@ -4819,6 +4889,11 @@ msgstr ""
 #. Programmer's name for it: rsShowQueueInfo
 msgid "Show Queue Info"
 msgstr "Afficher ce qui reste à télécharger"
+
+#. frElevationProfile..pmMain..mniShowSpeed..Caption
+#, fuzzy
+msgid "Show Speed"
+msgstr "Vitesse"
 
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
@@ -4966,6 +5041,10 @@ msgstr "Ignoré :"
 msgid "Sleep on reset connection, ms"
 msgstr "Attente lors du redémarrage, ms :"
 
+#, object-pascal-format
+msgid "Slope: %.1f%%"
+msgstr ""
+
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
 msgstr "Petite"
@@ -5023,6 +5102,15 @@ msgstr "Sources :"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedMenuItemName
 msgid "Speed"
 msgstr "Vitesse"
+
+#, no-object-pascal-format
+msgid "Speed: %.2f km/h"
+msgstr ""
+
+#. Programmer's name for it: rsElevationProfileSpeedFmt
+#, no-object-pascal-format
+msgid "Speed: %.2f, %.2f, %.2f km/h"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5325,6 +5413,15 @@ msgstr "La dalle est reconnue comme vide"
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "TileMapService, répertoire du cache :"
 
+#, object-pascal-format
+msgid ""
+"Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"
 msgstr "Taille de la dalle :"
@@ -5354,6 +5451,11 @@ msgstr "Temps restant (estimé) :"
 #. Programmer's name for it: SAS_STR_Marshtime
 msgid "Time to reach:"
 msgstr "Temps de trajet :"
+
+#. Programmer's name for it: rsElevationProfileTimeFmt
+#, fuzzy, object-pascal-format
+msgid "Time: %s"
+msgstr "Nom : %s"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
@@ -5764,6 +5866,11 @@ msgstr "Zoom plus petit"
 #. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "Centrage vers le pointeur (double clic)"
+
+#. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
+#, fuzzy
+msgid "Zoom with Mouse Wheel"
+msgstr "Contrôle de la roue de la souris :"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
